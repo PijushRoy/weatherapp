@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #D8FED7;
+}
+
+input {
+    outline: none;
+}
+
+input:focus {
+    box-shadow: none !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#left {
+    width: 50%;
+    height: 100vh;
+}
+
+#right {
+    width: 100%;
+    min-height: 100vh;
+    background: palegreen;
+}
+
+#branding {
+    width: 200px;
+    height: auto;
+}
+
+#condition {
+    width: 100px;
+    height: auto;
+}
+
+#master-history {
+    display: none;
+}
+
+p.lead {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+span {
+    font-weight: 600;
+}
