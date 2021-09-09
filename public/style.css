@@ -56,5 +56,9 @@ p.lead {
 }
 
 span {
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.text-small {
+    font-size: 16px !important;
 }
