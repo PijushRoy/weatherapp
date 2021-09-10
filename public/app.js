@@ -97,7 +97,7 @@ function setWeather(weather) {
     country.innerHTML = weather.country;
     mainText.innerHTML = weather.main;
     description.innerHTML = weather.description;
-    temp.innerHTML = Math.round((((weather.temp - 273.15) * 1.8) + 32 - 32) / 1.8) + ' C';
+    temp.innerHTML = Math.round((((weather.temp - 273.15) * 1.8) + 32 - 32) / 1.8) + '&#8451;';
     pressure.innerHTML = weather.pressure / 1000 + 'kpa';
     humidity.innerHTML = weather.humidity + '%';
 }
@@ -114,7 +114,7 @@ function updateHistory(history) {
         tempHistory.getElementsByClassName('country')[0].innerHTML = h.country
         tempHistory.getElementsByClassName('main')[0].innerHTML = h.main
         tempHistory.getElementsByClassName('description')[0].innerHTML = h.description
-        tempHistory.getElementsByClassName('temp')[0].innerHTML = Math.round((((h.temp - 273.15) * 1.8) + 32 - 32) / 1.8) + ' C'
+        tempHistory.getElementsByClassName('temp')[0].innerHTML = Math.round((((h.temp - 273.15) * 1.8) + 32 - 32) / 1.8) + '&#8451;'
         tempHistory.getElementsByClassName('pressure')[0].innerHTML = h.pressure / 1000 + 'kpa'
         tempHistory.getElementsByClassName('humidity')[0].innerHTML = h.humidity + '%'
 
